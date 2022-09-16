@@ -1,0 +1,85 @@
+.no-padding {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background: -moz-linear-gradient(
+    -45deg,
+    #000000 0%,
+    #4d5455 90%,
+    #798897 100%
+  );
+  background: -webkit-linear-gradient(
+    -45deg,
+    #000000 0%,
+    #4d5455 90%,
+    #798897 100%
+  );
+  background: linear-gradient(135deg, #000000 0%, #4d5455 90%, #798897 100%);
+}
+.my-side-nav {
+  height: 100vh;
+}
+.nav-link {
+  color: azure;
+  font-family: var(
+    --font-family,
+    CircularSpTitle,
+    CircularSpTitle-Tall,
+    CircularSp-Arab,
+    CircularSp-Hebr,
+    CircularSp-Cyrl,
+    CircularSp-Greek,
+    CircularSp-Deva,
+    var(--fallback-fonts, sans-serif)
+  );
+}
+.nav-link:visited {
+  color: azure;
+  font-family: var(
+    --font-family,
+    CircularSpTitle,
+    CircularSpTitle-Tall,
+    CircularSp-Arab,
+    CircularSp-Hebr,
+    CircularSp-Cyrl,
+    CircularSp-Greek,
+    CircularSp-Deva,
+    var(--fallback-fonts, sans-serif)
+  );
+}
+.nav-link:hover {
+  color: rgb(200, 239, 150);
+}
+.my-top-nav {
+  color: beige;
+  font-family: var(
+    --font-family,
+    CircularSpTitle,
+    CircularSpTitle-Tall,
+    CircularSp-Arab,
+    CircularSp-Hebr,
+    CircularSp-Cyrl,
+    CircularSp-Greek,
+    CircularSp-Deva,
+    var(--fallback-fonts, sans-serif)
+  );
+}
+.card {
+  width: 187px;
+  height: 278.19px;
+  background-color: rgb(40, 40, 40);
+  color: rgb(108, 107, 107);
+  padding: 18px;
+  position: relative;
+  font-family: var(
+    --font-family,
+    CircularSp,
+    CircularSp-Arab,
+    CircularSp-Hebr,
+    CircularSp-Cyrl,
+    CircularSp-Grek,
+    CircularSp-Deva,
+    var(--fallback-fonts, sans-serif)
+  );
+}

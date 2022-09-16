@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify</title>
+    <link type="icon" rel="icon"
+        href="data:image/png;base64,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">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./scss/spotify.css">
+</head>
+
+<body>
+    <div class="container-fluid no-padding ">
+        <div class="row">
+            <div class="col-2 my-side-nav ">
+                <nav class="nav flex-column vh-100">
+                    <a href="">
+                        <img class="w-75 mb-5 "
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWwSDcPB5BiNYYBFYC9kcG8st464LzORMRsA&usqp=CAU"
+                            alt="logo spotify">
+                    </a>
+                    <a class="nav-link active" aria-current="page" href="#"> <img
+                            src="https://cdn3.iconfinder.com/data/icons/real-estate-icons/32/House-128.png"
+                            alt="logo spotify" width="25" height="24"
+                            class="d-inline-block align-text-top me-2 mb-2">Home</a>
+                    <a class="nav-link" href="#">
+                        <img src="https://cdn1.iconfinder.com/data/icons/interface-travel-and-environment/64/magnifier-search-interface-256.png"
+                            alt="logo spotify" width="25" height="24"
+                            class="d-inline-block align-text-top me-2 mb-2">Search</a>
+                    <a class="nav-link" href="#"> <img
+                            src="https://cdn3.iconfinder.com/data/icons/ebook-icons/32/Audio_Book-128.png"
+                            alt="logo spotify" width="25" height="24" class="d-inline-block align-text-top me-2 mb-2">My
+                        Music</a>
+                    <a class="nav-link disabled"> <img
+                            src="https://cdn1.iconfinder.com/data/icons/business-finance-communication-and-healthcare/64/healthcare-heart-healthy-love-medicine-128.png"
+                            alt="logo spotify" width="25" height="24"
+                            class="d-inline-block align-text-top me-2 ">Favorit
+                        Songs</a>
+
+                </nav>
+
+            </div>
+            <div class="col ">
+                <div class="row ">
+                    <div class="col my-top-nav  ">
+                        <ul class="nav justify-content-center">
+                            <li class="nav-item">
+                                <a class="nav-link active " aria-current="page" href="#">Sign In
+                                    |</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Download</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Support</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link disabled">Premium</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row  ">
+                    <div class="col ">
+                        <div class="row ">
+                            <div class="col text-white">Spotify Playlists
+                            </div>
+                        </div>
+                        <div class="row justify-content-center">
+                            <div class="card g-3 mx-2">
+                                <a href="https://open.spotify.com/playlist/37i9dQZF1DX0XUsuxWHRQd" target="_blank"> <img
+                                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_Ki0_Cmb5s5yDv2iVbb9Ff7LMN3-LwcOY3Q&usqp=CAU"
+                                        class="card-img-top" alt="..."></a>
+                                <div class="card-body">
+                                    <p class="text-light "><b>Rock Classics</b> </p>
+                                    <p class="card-text">Rock legends & epic songs</p>
+                                </div>
+                            </div>
+                            <div class="card g-3 mx-2">
+                                <a href="https://open.spotify.com/playlist/37i9dQZF1DXcBWIGoYBM5M" target="_blank"><img
+                                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQNd_hwDncigeIcSp2D4V59PF4n3ux81hCKw&usqp=CAU="
+                                        class="card-img-top" alt="..."></a>
+                                <div class="card-body">
+                                    <p class="text-light "><b>All Out 2010s</b> </p>
+                                    <p class="card-text text-center ">A soft musical backdrop</p>
+                                </div>
+                            </div>
+                            <div class="card g-3 mx-2">
+                                <a href="https://open.spotify.com/playlist/37i9dQZF1DX0XUsuxWHRQd" target="_blank"><img
+                                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxPUKBjSOG2e1gjT2BHAbucB7M-UF-799g2A&usqp=CAU"
+                                        class="card-img-top" alt="..."></a>
+                                <div class="card-body">
+                                    <p class="text-light "><b>RapCaviar</b> </p>
+                                    <p class="card-text">RIP PnB Rock.</p>
+                                </div>
+                            </div>
+                            <div class="card g-3 mx-2">
+                                <a href="https://open.spotify.com/playlist/37i9dQZF1DWXRqgorJj26U" target="_blank"><img
+                                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSClZR2XfVwCUgxP5evGvFbY16y1oIEp0DnOw&usqp=CAU"
+                                        class="card-img-top" alt="..."></a>
+                                <div class="card-body">
+                                    <p class="text-light "><b>Today's Top Hits</b> </p>
+                                    <p class="card-text">the Hottest 50!</p>
+                                </div>
+                            </div>
+                            <div class="card g-3 mx-2">
+                                <a href="https://open.spotify.com/playlist/37i9dQZF1DX0XUsuxWHRQd" target="_blank">
+                                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgFRUrlSSL2xU5MiTvrCGAEc1CCqk_AOUfCCZFXtMEmRG-xJvjlS0ZxCK-CEG6D5QTBxA&usqp=CAU"
+                                        class="card-img-top" alt="..."></a>
+                                <div class="card-body">
+                                    <p class="text-light "><b>bla bla</b> </p>
+                                    <p class="card-text">Some quick example text </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row ">
+                            <div class="col ">
+                                <div class="row ">
+                                    <div class="col">title
+                                    </div>
+                                </div>
+                                <div class="row justify-content-center">
+                                    <div class="card g-3 mx-2">
+                                        <a href="https://open.spotify.com/playlist/37i9dQZF1DX0XUsuxWHRQd"
+                                            target="_blank"> <img
+                                                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVbpfq5vZOuL-E4_G6IgLBh8saJ2983VO2Loxwnw-8dFv0A1aHrS1ZEZl9sIusiz_3CpM&usqp=CAU"
+                                                class="card-img-top" alt="..."></a>
+                                        <div class="card-body">
+                                            <p class="text-light "><b>bla bla</b> </p>
+                                            <p class="card-text">Some quick example text </p>
+                                        </div>
+                                    </div>
+                                    <div class="card g-3 mx-2">
+                                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSavwhq1iyBU25xyVa9z_oYYpUcKuW6fuiuyg&usqp=CAU"
+                                            class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <p class="text-light "><b>bla bla</b> </p>
+                                            <p class="card-text">Some quick example text </p>
+                                        </div>
+                                    </div>
+                                    <div class="card g-3 mx-2">
+                                        <img src=" https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgFRUrlSSL2xU5MiTvrCGAEc1CCqk_AOUfCCZFXtMEmRG-xJvjlS0ZxCK-CEG6D5QTBxA&usqp=CAU"
+                                            class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <p class="text-light "><b>bla bla</b> </p>
+                                            <p class="card-text">Some quick example text</p>
+                                        </div>
+                                    </div>
+                                    <div class="card g-3 mx-2">
+                                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQt8osYpp7o2C6pk_qjLNF8iCLJ1loOIDt0Gw&usqp=CAU "
+                                            class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <p class="text-light "><b>bla bla</b> </p>
+                                            <p class="card-text">Some quick example text </p>
+                                        </div>
+                                    </div>
+                                    <div class="card g-3 mx-2">
+                                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSClZR2XfVwCUgxP5evGvFbY16y1oIEp0DnOw&usqp=CAU"
+                                            class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <p class="text-light "><b>bla bla</b> </p>
+                                            <p class="card-text">Some quick example text</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer> <span class="text-light ">&copy; shiri Elram</span></footer>
+    </div>
+
+</body>
+
+</html>
